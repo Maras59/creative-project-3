@@ -2,6 +2,14 @@
   text-align: center;
 }
 
+body {
+ background-color: #ADD8E6;
+ font-family: Arial, Helvetica, sans-serif;
+ background-image: url(bkg.jpg);
+ background-repeat: no-repeat;
+background-attachment: fixed;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,4 +43,131 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111111;
+}
+
+#results {
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+}
+
+#jsonimg {
+    height: auto; 
+    width: auto; 
+    max-width: 500px; 
+    
+    margin-right: 20px;
+
+}
+
+img {
+    border: 5px solid #555;
+}
+
+#button {
+    height: 40px;
+    width: 120px;
+    background-color: white;
+    color: black;
+    border: 2px solid #555555;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transition-duration: 0.4s;
+}
+
+#button:hover {
+    background-color: #555555;
+    color: white;
+}
+
+#menuDiv{
+  padding-top: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#infoBox1 {
+  padding: 50px;
+}
+
+#infoBox2 {
+  padding: 50px;
+}
+
+#l1:link, #l1:visited {
+  background-color: rgba(255,255,255,0.5);;
+  color: Black;
+  font-size: 2em;
+  padding: 50px 50px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+#l1:hover, #l1:active {
+  background-color: Gray;
+}
+
+#l2:link, #l2:visited {
+  background-color: rgba(255,255,255,0.5);;
+  color: Black;
+  font-size: 2em;
+  padding: 50px 50px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+#l2:hover, #l2:active {
+  background-color: Gray;
+}
+
+#quote {
+  padding-top: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+#quoteDiv {
+  display: flex;
+  justify-content: center;
+  font-size: 2em;
+  flex-direction: column;
+  
+}
+
+#qtext {
+  font-size: 1.5em;
+  -webkit-text-stroke-width: .5px;
+  -webkit-text-stroke-color: white;
+}
+
+#qa {
+  font-size: 1.5em;
 }
